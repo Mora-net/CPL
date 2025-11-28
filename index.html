@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="icon" href="images/favicon.ico"> -->
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body class="font-sans bg-gray-50">
+
+  <!-- NAVIGATION -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <!-- Logo and site name -->
+      <div class="flex items-center space-x-2">
+        <img src="image/logopage.jpg" alt="Football Hub Logo" class="w-10 h-10 object-contain">
+        <div class="text-2xl font-bold">Football Hub</div>
+      </div>
+
+      <nav>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="#hero" class="hover:text-green-500">Home</a></li>
+          <li><a href="#features" class="hover:text-green-500">Why Football Hub</a></li>
+          <li><a href="#pricing" class="hover:text-green-500">Membership</a></li>
+          <li><a href="#testimonials" class="hover:text-green-500">Fans' Reviews</a></li>
+        </ul>
+        <!-- Hamburger -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white">
+      <ul class="flex flex-col p-4 space-y-2">
+        <li class="flex items-center space-x-2 mb-2">
+          <img src="image/logopage.jpg" alt="Football Hub Logo" class="w-8 h-8 object-contain">
+          <span class="font-bold">Football Hub</span>
+        </li>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Why Football Hub</a></li>
+        <li><a href="#pricing">Membership</a></li>
+        <li><a href="#testimonials">Fans' Reviews</a></li>
+      </ul>
+    </div>
+  </header>
+ 
+  <section id="hero" class="h-screen relative flex flex-col justify-center items-center text-white text-center px-4">
+  <!-- Full responsive background image -->
+  <div class="absolute inset-0">
+    <img 
+      src="image/0_unnamed.webp" 
+      alt="Football Hero" 
+      class="w-full h-full object-cover"
+    />
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+  </div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Welcome to Football Hub</h1>
+    <p class="text-lg md:text-2xl mb-6">Follow the latest football news, live scores, and join the fan community.</p>
+    <div class="space-x-4">
+      <button class="bg-white text-green-700 font-bold px-6 py-3 rounded-lg hover:bg-green-100 transition">Get Started</button>
+      <button class="bg-transparent border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-green-700 transition">Learn More</button>
+    </div>
+  </div>
+</section>
+
+  <!-- WHY FOOTBALL HUB -->
+  <section id="features" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Why Football Hub?</h2>
+      <p class="text-gray-600">Discover the features that make Football Hub the ultimate destination for football fans.</p>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="image/live-scores.webp" alt="Live Scores" class="w-100 h-100 mx-auto mb-4">
+        <h3 class="text-xl font-bold mb-2">Live Scores</h3>
+        <p class="text-gray-600">Get real-time updates on matches from all leagues around the world.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="image/News & Analysis.webp" alt="News & Analysis" class="w-100 h-100 mx-auto mb-4 ">
+        <h3 class="text-xl font-bold mb-2">News & Analysis</h3>
+        <p class="text-gray-600">Stay informed with the latest football news, match analysis, and highlights.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <img src="image/166477_UCFBHL.avif" alt="Fan Community" class="w-100 h-100 mx-auto mb-4">
+        <h3 class="text-xl font-bold mb-2">Fan Community</h3>
+        <p class="text-gray-600">Join discussions, share opinions, and connect with football enthusiasts worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP PLANS -->
+  <section id="pricing" class="py-16">
+    <div class="container mx-auto text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Membership Plans</h2>
+      <p class="text-gray-600">Choose a plan to unlock exclusive football content.</p>
+    </div>
+    <div class="container mx-auto flex flex-col md:flex-row justify-center items-center gap-6 px-4">
+      <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3 hover:shadow-lg transition">
+        <img src="image/free.avif" alt="Free Plan" class="w-50 h-50 mx-auto mb-4">
+        <h3 class="text-2xl font-bold mb-2">Free</h3>
+        <p class="text-gray-600 mb-4">Basic access to news and scores.</p>
+        <p class="text-3xl font-bold mb-4">$0</p>
+        <button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition">Sign Up</button>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3 hover:shadow-lg transition">
+        <img src="image/Premium.webp" alt="Premium Plan" class="w-50 h-50 mx-auto mb-4">
+        <h3 class="text-2xl font-bold mb-2">Premium</h3>
+        <p class="text-gray-600 mb-4">Advanced features including analysis & live commentary.</p>
+        <p class="text-3xl font-bold mb-4">$9.99/mo</p>
+        <button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition">Sign Up</button>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3 hover:shadow-lg transition">
+        <img src="image/Elite.jpg" alt="Elite Plan" class="w-50 h-50 mx-auto mb-4">
+        <h3 class="text-2xl font-bold mb-2">Elite</h3>
+        <p class="text-gray-600 mb-4">Full access to all content and VIP fan community.</p>
+        <p class="text-3xl font-bold mb-4">$19.99/mo</p>
+        <button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition">Sign Up</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">Fans' Reviews</h2>
+      <p class="text-gray-600">Hear from our football fan community.</p>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="relative overflow-hidden">
+        <div id="testimonial-wrapper" class="flex transition-transform duration-500">
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/Mike Johnson.jpg" alt="Mike Johnson" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Football Hub keeps me updated with every match in real time!"</p>
+              <h4 class="font-bold">Mike Johnson</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/fan2.jpg" alt="Sara Lee" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"The fan community is amazing, I’ve met so many fellow supporters."</p>
+              <h4 class="font-bold">Sara Lee</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/David Kim.avif" alt="David Kim" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Highly recommend for anyone passionate about football."</p>
+              <h4 class="font-bold">David Kim</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/Mike Johnson.jpg" alt="Mike Johnson" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Football Hub keeps me updated with every match in real time!"</p>
+              <h4 class="font-bold">Mike Johnson</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/fan2.jpg" alt="Sara Lee" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"The fan community is amazing, I’ve met so many fellow supporters."</p>
+              <h4 class="font-bold">Sara Lee</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/David Kim.avif" alt="David Kim" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Highly recommend for anyone passionate about football."</p>
+              <h4 class="font-bold">David Kim</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/Mike Johnson.jpg" alt="Mike Johnson" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Football Hub keeps me updated with every match in real time!"</p>
+              <h4 class="font-bold">Mike Johnson</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/fan2.jpg" alt="Sara Lee" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"The fan community is amazing, I’ve met so many fellow supporters."</p>
+              <h4 class="font-bold">Sara Lee</h4>
+            </div>
+          </div>
+          <div class="flex-shrink-0 w-full md:w-1/3 p-4">
+            <div class="bg-white p-6 rounded-lg shadow">
+              <img src="image/David Kim.avif" alt="David Kim" class="w-20 h-20 rounded-full mx-auto mb-4">
+              <p class="text-gray-600 mb-4">"Highly recommend for anyone passionate about football."</p>
+              <h4 class="font-bold">David Kim</h4>
+            </div>
+          </div>
+          
+        </div>
+        <div class="flex justify-center mt-4 space-x-2">
+          <button onclick="prevTestimonial()" class="bg-green-600 text-white px-3 py-1 rounded">Prev</button>
+          <button onclick="nextTestimonial()" class="bg-green-600 text-white px-3 py-1 rounded">Next</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <!-- FOOTER -->
+<footer class="bg-gray-800 text-white py-12">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-start px-4">
+
+    <!-- BRAND -->
+    <div class="mb-6 md:mb-0">
+      <h4 class="font-bold mb-2">Football Hub</h4>
+      <p>© 2025 The Football - All Rights Reserved</p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="mb-6 md:mb-0">
+      <h4 class="font-bold mb-2">Links</h4>
+      <ul>
+        <li><a href="#hero" class="hover:text-green-400">Home</a></li>
+        <li><a href="#features" class="hover:text-green-400">Why Football Hub</a></li>
+        <li><a href="#pricing" class="hover:text-green-400">Membership</a></li>
+        <li><a href="#testimonials" class="hover:text-green-400">Fans' Reviews</a></li>
+      </ul>
+    </div>
+
+    <!-- SOCIAL ICONS WITH IMAGES -->
+    <div class="mb-6 md:mb-0">
+      <h4 class="font-bold mb-2">Social</h4>
+      <ul class="flex space-x-4">
+
+        <li>
+          <a href="#">
+            <img src="image/fb.png" alt="Facebook" 
+                 class="w-6 h-6 hover:opacity-70 transition">
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="image/ig.png" alt="Instagram" 
+                 class="w-6 h-6 hover:opacity-70 transition">
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="image/yt.png" alt="YouTube" 
+                 class="w-6 h-6 hover:opacity-70 transition">
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script>
+    // Hamburger toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Testimonial carousel
+    const wrapper = document.getElementById('testimonial-wrapper');
+    let index = 0;
+    function showTestimonial(i){
+      wrapper.style.transform = `translateX(-${i * 100}%)`;
+    }
+    function nextTestimonial(){
+      index = (index + 1) % 3;
+      showTestimonial(index);
+    }
+    function prevTestimonial(){
+      index = (index + 2) % 3;
+      showTestimonial(index);
+    }
+    
+  </script>
+</body>
+</html>
