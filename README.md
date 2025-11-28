@@ -67,9 +67,9 @@ The website provides live football features, membership plans, testimonials, and
 ### **1. Download or clone the repository**
 ```bash
 git clone https://github.com/your-username/football-hub.git
-### **2. Open the project folder
+### **2. Open the project folder**
 ```bash
 cd football-hub
-### **3. Run the project
+### **3. Run the project**
 
 Simply open the file: index.html
