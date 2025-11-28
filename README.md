@@ -15,10 +15,10 @@ The website provides live football features, membership plans, testimonials, and
 ##  Screenshots
 
 ### **Desktop View**
-![Desktop Screenshot](image/desktop-preview.png)
+![Desktop Screenshot](https://github.com/Mora-net/CPL/blob/main/dest-View1.png)
 
 ### **Mobile View**
-![Mobile Screenshot](image/mobile-preview.png)
+![Mobile Screenshot](https://github.com/Mora-net/CPL/blob/main/dest-View2.png)
 
 *(Insert actual screenshots here)*
 
