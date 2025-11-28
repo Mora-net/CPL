@@ -8,7 +8,7 @@ The website provides live football features, membership plans, testimonials, and
 
 ##  Live Demo  
 **GitHub Pages Link:**  
-(Add your link after uploading to GitHub)
+(https://mora-net.github.io/CPL/)
 
 ---
 
