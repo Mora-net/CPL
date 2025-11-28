@@ -6,13 +6,13 @@ The website provides live football features, membership plans, testimonials, and
 
 ---
 
-## 🚀 Live Demo  
+##  Live Demo  
 **GitHub Pages Link:**  
-(Add your link here after you upload your project to GitHub)
+(Add your link after uploading to GitHub)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### **Desktop View**
 ![Desktop Screenshot](image/desktop-preview.png)
@@ -20,72 +20,56 @@ The website provides live football features, membership plans, testimonials, and
 ### **Mobile View**
 ![Mobile Screenshot](image/mobile-preview.png)
 
-*(Add your own screenshots here. You must capture them.)*
+*(Insert actual screenshots here)*
 
 ---
 
-## ✅ Features Implemented
+##  Features Implemented
 
-### **1. Responsive Navigation Bar**
-- Sticky top navigation  
+- Responsive sticky navigation bar  
 - Mobile hamburger menu  
-- Smooth toggle animation  
-
-### **2. Hero Section**
-- Full-screen background image  
-- Dark overlay  
-- Call-to-action buttons  
-
-### **3. Why Football Hub Section**
-- 3 feature cards  
-- Hover animations  
-- Tailwind grid layout  
-
-### **4. Membership Plans**
-- 3 membership tiers  
-- Pricing cards  
-- Responsive design  
-
-### **5. Testimonials Carousel**
-- Horizontal slider  
-- Next/Previous buttons  
-- Smooth CSS transitions  
-
-### **6. Footer Section**
-- Social icons  
-- Quick links  
-- Branding  
-
-### **7. Favicon**
-- Custom favicon created from personal logo  
-- Included using `<link rel="icon" href="favicon.ico">`  
+- Full-screen hero section  
+- “Why Football Hub?” feature cards  
+- Membership pricing plans  
+- Testimonial carousel (Prev/Next)  
+- Footer with social icons  
+- Custom favicon  
+- Fully responsive on all devices  
 
 ---
 
-## 🖼️ Credits (Images & Assets)
+##  Credits (Images & Tools)
 
-| Asset | Source |
+| Asset | Credit |
 |-------|--------|
-| Football logos & images | Google Images / Free resources |
-| Testimonial photos | Sample placeholder images |
-| Social icons | Custom PNG icons |
-| Background images | Unsplash / Free assets |
+| Logo | Provided by project owner |
+| Background images | Unsplash / royalty-free sources |
+| Feature images | Free stock resources |
+| Testimonial images | Placeholder images |
+| Social icons | PNG icons |
+| **Favicon (favicon.ico)** | *Converted from logo with the help of ChatGPT* |
 
-> *Make sure all images are copyright-free or allowed for personal/student use.*
+> All assets are used for educational purposes only.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **HTML5**
-- **TailwindCSS CDN**
+- **Tailwind CSS (CDN)**
 - **Vanilla JavaScript**
-- **Responsive Design (Mobile–Tablet–Desktop)**
+- **CSS Flexbox & Grid (via Tailwind)**
+- Fully responsive layout (Mobile → Desktop)
 
 ---
 
-## 📂 How to Run the Project Locally
+##  How to Run the Project Locally
 
-1. **Download or clone** the repository:
-   ```bash
-   git clone https://github.com/your-username/football-hub.git
+### **1. Download or clone the repository**
+```bash
+git clone https://github.com/your-username/football-hub.git
+### **2. Open the project folder
+```bash
+cd football-hub
+### **3. Run the project
 
+Simply open the file: index.html
