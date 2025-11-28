@@ -1,5 +1,5 @@
 # Football Hub  
-**Created by: Mora**
+**March Somora**
 
 A fully responsive football website built using **HTML5**, **TailwindCSS**, and **JavaScript**.  
 The website provides live football features, membership plans, testimonials, and a modern UI/UX experience.
